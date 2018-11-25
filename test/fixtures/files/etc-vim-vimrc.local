@@ -1,0 +1,29 @@
+if has("syntax")
+  syntax on
+endif
+colorscheme darkblue "set backgroud-color
+set autoindent  "autoindentを有効にする
+set nu
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set fenc=utf-8 "文字コードをUFT-8に設定
+set noswapfile
+set cursorline
+set smartindent
+"set list "空白文字の可視化
+"set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+set nopaste
+set nobackup
+set mouse=
+"ESC連打でハイライト解除
+nmap <Esc><Esc> :nohlsearch<CR><Esc>
+"map <Space> :tabn<CR>
+"map <S-Space> :tabp<CR>
+"map <Left> :tabp<CR>
+"map <Right> :tabn<CR>
+" to comfirm color
+" :so $VIMRUNTIME/syntax/colortest.vim
+command Rc hi Comment ctermfg=green
+hi Comment ctermfg=green
+command Rc hi Comment ctermfg=green

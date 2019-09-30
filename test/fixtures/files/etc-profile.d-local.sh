@@ -1,3 +1,9 @@
 alias vi=vim
 alias trr="tree -L 1 "
 alias lss="tree -FaI 'node_modules|.git|.DS_Store'"
+alias rsync='rsync -az' # $fromDir/ $toDir/
+# alias sed='gsed'
+alias ports='lsof -i -P | grep "LISTEN"'
+# alias vms='vboxmanage list vms'
+# alias vmsrunning='vboxmanage list runningvms'
+alias vis='vim -S'

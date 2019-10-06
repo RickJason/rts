@@ -1,5 +1,8 @@
 alias vi=vim
 alias trr="tree -L 1 "
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 alias lss="tree -FaI 'node_modules|.git|.DS_Store'"
 alias rsync='rsync -az' # $fromDir/ $toDir/
 # alias sed='gsed'
